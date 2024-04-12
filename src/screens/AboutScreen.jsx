@@ -5,7 +5,7 @@ import MainLayout from '../layouts/MainLayout';
 function AboutScreen({navigation}) {
   return (
     <MainLayout>
-      <Text>To Do App</Text>
+      <Text>Welcome to the AppCreationLab!</Text>
       <Text>Brandon Tran</Text>
       <Text>{new Date().toLocaleDateString()}</Text>
       <Button title="Go back" onPress={() => navigation.goBack()} />
